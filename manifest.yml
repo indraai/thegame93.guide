@@ -1,5 +1,6 @@
 applications:
 - name: thegame93.guide-pipeline
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
   path: ./dist
   memory: 256M
   env:
