@@ -1,5 +1,5 @@
 applications:
- - name: thegame93.guide
+ - name: thegame93.guide-pipeline
      path: ./dist
      buildpack: https://github.com/indraai/thegame93.guide.git
      random-route: true
