@@ -1,6 +1,6 @@
 {
   "name": "thegame93.guide",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "private": true,
   "bin": {
     "game": "./bin/game.js"
