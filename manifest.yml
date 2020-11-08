@@ -1,8 +1,7 @@
 applications:
 - name: thegame93.guide-pipeline
   path: ./dist
-  buildpacks:
-  - https://github.com/indraai/thegame93.guide.git
+  buildpack: https://github.com/indraai/thegame93.guide.git
   memory: 256M
   env:
     FORCE_HTTPS: true
