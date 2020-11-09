@@ -7,26 +7,20 @@
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
 
-    <script>
-      window.watsonAssistantChatOptions = {
-          integrationID: "ead378d0-eaca-4fe2-bc42-1d87237f69bd", // The ID of this integration.
-          region: "us-south", // The region your integration is hosted in.
-          serviceInstanceID: "9adf5250-d2d1-450c-a115-6c9b3cb786ed", // The ID of your service instance.
-          onLoad: function(instance) { instance.render(); }
-        };
-      setTimeout(function(){
-        const t=document.createElement('script');
-        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
-        document.head.appendChild(t);
-      });
-    </script>
-    
+    <link rel="stylesheet" href="https://use.typekit.net/heo2xkp.css">
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
+    <main id="app"></main>
+    <footer>
+      <p>Copyright &copy;2020 TheGame93.guide, All Rights Reserved | <a href="/privacy.html">Privacy Statement</a></p>
+
+      <a href="https://www.ibm.com/watson" title="Powered by IBM Watson" target="watson">
+        <img src="https://deva.space/cdn/emojis/watson-power.png" alt="Powered by IBM Watson">
+      </a>
+    </footer>
     <!-- built files will be auto injected -->
   </body>
 </html>
